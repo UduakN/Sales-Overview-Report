@@ -28,20 +28,20 @@ Dataset was clean except for the data types which were changed where applicable.
 
 # Tableau calculations
 
-Total current year sales =IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Sales] END
+Total current year sales = IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Sales] END
 
-Total current year profit =IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Profit] END
+Total current year profit = IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Profit] END
 
-Total current year Qty =IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Qty] END
+Total current year Qty = IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Qty] END
 
 Total previous year sales = IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}-1 THEN [Sales] END
 
-Total previous year profit =IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}-1 THEN [Profit] END
+Total previous year profit = IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}-1 THEN [Profit] END
 
-Total previous year Qty =IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}-1 THEN [Qty] END
+Total previous year Qty = IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))}-1 THEN [Qty] END
 
 Minimum maximum sales = IF SUM([Total CY Sales])= WINDOW_MAX(SUM([Total CY Sales])) THEN SUM([Total CY Sales])
-ELSEIF SUM([Total CY Sales])= WINDOW_MIN(SUM([Total CY Sales])) THEN SUM([Total CY Sales])
+ELSEIF SUM([Total CY Sales]) = WINDOW_MIN(SUM([Total CY Sales])) THEN SUM([Total CY Sales])
 ELSE NULL
 END
 
@@ -51,7 +51,7 @@ ELSE NULL
 END
 
 Minimum maximum qty = IF SUM([Total CY Qty])= WINDOW_MAX(SUM([Total CY Qty])) THEN SUM([Total CY Qty])
-ELSEIF SUM([Total CY Qty])= WINDOW_MIN(SUM([Total CY Qty])) THEN SUM([Total CY Qty])
+ELSEIF SUM([Total CY Qty]) = WINDOW_MIN(SUM([Total CY Qty])) THEN SUM([Total CY Qty])
 ELSE NULL
 END
 
