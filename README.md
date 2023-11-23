@@ -28,7 +28,8 @@ Dataset was clean except for the data types which were changed where applicable.
 
 # Data Visualization
 
-![image](https://github.com/UduakN/Sales-Overview-Report/assets/128192166/b71d21a6-5e12-463d-b378-5e4b33bd0a62)
+![image](https://github.com/UduakN/Sales-Overview-Report/assets/128192166/97a5349c-a3bf-4f81-bf92-cbfac618c0ea)
+
 
 # Insights
 
