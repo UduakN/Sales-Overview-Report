@@ -4,7 +4,7 @@
 
 # Introduction
 
-In modern commerce, data reigns supreme. The amalgamation of sales figures, consumer behaviour patterns, and geographic information presents a vase of insights that can redefine success for any business. This project dataset lies within this context. The project aims to extract invaluable insights that will drive innovative approaches and elevate the effectiveness of marketing, sales endeavours which include recognition. 
+In modern commerce, data reigns supreme. The amalgamation of sales figures, consumer behaviour patterns, and geographic information presents a vase of insights that can redefine success for any business. This project dataset lies within this context. The project aims to extract invaluable insights that will drive innovative approaches and elevate the effectiveness of marketing, sales endeavours which also include recognition. 
 
 # About Dataset
 
