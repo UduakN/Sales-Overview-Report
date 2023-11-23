@@ -92,4 +92,5 @@ END
 
 
 
-
+Interract with dashboard - https://www.novypro.com/project/sales-overview-dashboard
+Connect on LinkedIn - https://www.linkedin.com/in/uduak-njoku/
